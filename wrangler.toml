@@ -1,0 +1,10 @@
+name = "secure-r2-worker"
+main = "index.js"
+compatibility_date = "2025-08-25"
+account_id = "7e6099cf3fa167c9bd273a4465f41828"
+
+[[r2_buckets]]
+binding = "FLAGS"
+bucket_name = "flags"
+
+routes = ["catsdose.user44-lab.com/secure/*"]
